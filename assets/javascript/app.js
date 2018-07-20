@@ -120,7 +120,7 @@ var questions = [
 
 function startGame() {
     var startScreen = "<button type='button' class='btn btn-primary btn-lg btn-block' id='startButton' href='#'>Click Here to Start</button>";
-    $("#row1").html("<div class='container'><div class='row'><div class='col-md-12 offset-md-5'>" + startScreen + "</div></div></div>");
+    $("#row1").html("<div class='container'><div class='row'>" + startScreen + "</div></div>");
   
 }
 //
